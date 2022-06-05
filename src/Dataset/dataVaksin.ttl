@@ -1,0 +1,554 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix p: <http://human.com/person#> .
+@prefix d: <http://human.com/person/data#> .
+
+# person        #data           #value
+p:01            d:name          "Arimbi" ;
+                d:ttl           "Jakarta, 10 Mei 2001" ;
+                d:telp          "082122445647" ;
+                d:email         "arimbi@gmail.com" ;
+                d:alamat        "Jl Cilincing Lama No 14";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".    
+
+p:02            d:name          "Devina" ;
+                d:ttl           "Denpasar, 08 Januari 2001" ;
+                d:telp          "081232345647" ;
+                d:email         "devina@gmail.com" ;
+                d:alamat        "Jl Cilincing Lama No 10";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "3".     
+
+p:03            d:name          "Arya" ;
+                d:ttl           "Bekasi, 15 Februari 2002" ;
+                d:telp          "082564845571" ;
+                d:email         "arya@gmail.com" ;
+                d:alamat        "Jl Sungai Landak No 10";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "1".      
+
+p:04            d:name          "Fendri" ;
+                d:ttl           "Yogyakarta, 13 April 2001" ;
+                d:telp          "082458452178" ;
+                d:email         "fendri@gmail.com" ;
+                d:alamat        "Jl Lagoa No 10";
+                d:kelurahan     "Koja" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".       
+
+p:05            d:name          "Helmi" ;
+                d:ttl           "Jakarta, 18 Mei 2001" ;
+                d:telp          "082564845572" ;
+                d:email         "helmi@gmail.com" ;
+                d:alamat        "Jl Kelapa Dua No 39";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "3".      
+
+p:06            d:name          "Guruh" ;
+                d:ttl           "Jakarta, 10 Juni 2001" ;
+                d:telp          "082156815185" ;
+                d:email         "guruh@gmail.com" ;
+                d:alamat        "Jl Kebantenan 3 No 16";
+                d:kelurahan     "Semper Timur" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Karyawan";
+                d:umur          "21";
+                d:vaksin        "2".      
+
+p:07            d:name          "Azizah" ;
+                d:ttl           "Yogyakarta, 18 Juli 2002" ;
+                d:telp          "085165185652" ;
+                d:email         "azizah@gmail.com" ;
+                d:alamat        "Jl Sungai Landak No 10";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "1".      
+
+p:08            d:name          "Fika" ;
+                d:ttl           "Yogyakarta, 20 Agustus 2001" ;
+                d:telp          "085165185654" ;
+                d:email         "fika@gmail.com" ;
+                d:alamat        "Jl Bakti No 30";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "2".
+
+p:09            d:name          "Mayang" ;
+                d:ttl           "Bandung, 25 Oktober 2001" ;
+                d:telp          "085165165151" ;
+                d:email         "mayang@gmail.com" ;
+                d:alamat        "Jl Kalibaru Barat No 15";
+                d:kelurahan     "Kalibaru" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".
+
+p:10            d:name          "Veren" ;
+                d:ttl           "Jakarta, 24 November 2002" ;
+                d:telp          "081651654981" ;
+                d:email         "veren@gmail.com" ;
+                d:alamat        "Jl Kalibaru Timur No 18";
+                d:kelurahan     "Kalibaru" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "3". 
+
+p:11            d:name          "Yuda" ;
+                d:ttl           "Jakarta, 23 Mei 2002" ;
+                d:telp          "08516541684" ;
+                d:email         "yuda@gmail.com" ;
+                d:alamat        "Jl Swamsembada No 19";
+                d:kelurahan     "Warakas" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "TNI";
+                d:umur          "20";
+                d:vaksin        "3".
+
+p:12            d:name          "Gavin" ;
+                d:ttl           "Jakarta, 11 Juli 2001" ;
+                d:telp          "0851515151" ;
+                d:email         "gavin@gmail.com" ;
+                d:alamat        "Komp Pertamina Blok A No 1";
+                d:kelurahan     "Koja" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "3". 
+
+p:13            d:name          "Almer" ;
+                d:ttl           "Jakarta, 10 April 2001" ;
+                d:telp          "081202545846" ;
+                d:email         "almer@gmail.com" ;
+                d:alamat        "Komp Pelindo II Blok C3 No 16";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "3".   
+
+p:14            d:name          "Prianggara" ;
+                d:ttl           "Jakarta, 05 Maret 2001" ;
+                d:telp          "083521651588" ;
+                d:email         "prianggara@gmail.com" ;
+                d:alamat        "Komp Gaya Motor No 11";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".    
+
+p:15            d:name          "Wiliam" ;
+                d:ttl           "Jakarta, 22 Maret 2003" ;
+                d:telp          "083515154884" ;
+                d:email         "wiliam@gmail.com" ;
+                d:alamat        "Jl Kelapa Dua No 40";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "19";
+                d:vaksin        "2".    
+
+p:16            d:name          "Risky" ;
+                d:ttl           "Jakarta, 18 Desember 2006" ;
+                d:telp          "081654168554" ;
+                d:email         "risky@gmail.com" ;
+                d:alamat        "Komp Pelindo II Blok C3 No 10";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Pelajar";
+                d:umur          "16";
+                d:vaksin        "2".    
+
+p:17            d:name          "Farhan" ;
+                d:ttl           "Jakarta, 06 Januari 2006" ;
+                d:telp          "08185484848" ;
+                d:email         "farhan@gmail.com" ;
+                d:alamat        "Komp Gaya Motor No 07";
+                d:kelurahan     "Kelapa Gading Timur" ;
+                d:kecamatan     "Kelapa Gading";
+                d:pekerjaan     "Pelajar";
+                d:umur          "16";
+                d:vaksin        "2".    
+
+p:18            d:name          "Ivan" ;
+                d:ttl           "Jakarta, 23 Januari 1998" ;
+                d:telp          "08318544488" ;
+                d:email         "ivan@gmail.com" ;
+                d:alamat        "Jl Papanggo No 07";
+                d:kelurahan     "Warakas" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Pegawai Swasta";
+                d:umur          "24";
+                d:vaksin        "3".    
+
+p:19            d:name          "Eli" ;
+                d:ttl           "Jakarta, 23 April 2000" ;
+                d:telp          "08321651651" ;
+                d:email         "eli@gmail.com" ;
+                d:alamat        "Jl Ancol Barat No 24";
+                d:kelurahan     "Ancol" ;
+                d:kecamatan     "Pademangan";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "2".    
+
+p:20            d:name          "Wafi" ;
+                d:ttl           "Jakarta, 02 Desember 1997" ;
+                d:telp          "08561654561" ;
+                d:email         "wafi@gmail.com" ;
+                d:alamat        "Jl Kapuk Muara No 43";
+                d:kelurahan     "Kapuk Muara" ;
+                d:kecamatan     "Penjaringan";
+                d:pekerjaan     "PNS";
+                d:umur          "25";
+                d:vaksin        "3".    
+
+p:21            d:name          "Faishal Ramadhan" ;
+                d:ttl           "Jakarta, 20 Januari 2000" ;
+                d:telp          "08117624284" ;
+                d:email         "faishalramadhan@gmail.com" ;
+                d:alamat        "Jl Dewi Sartika No 8";
+                d:kelurahan     "Pluit" ;
+                d:kecamatan     "Penjaringan";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "3".
+
+p:22            d:name          "Nisa Nahira" ;
+                d:ttl           "Jakarta, 20 Januari 2000" ;
+                d:telp          "08117624284" ;
+                d:email         "nisanahira@gmail.com" ;
+                d:alamat        "Jl Merbabu No 16";
+                d:kelurahan     "Pademangan Timur" ;
+                d:kecamatan     "Pademangan";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".               
+
+p:23            d:name          "Alifia Putri" ;
+                d:ttl           "Jakarta, 3 Agustus 1999" ;
+                d:telp          "08123505330" ;
+                d:email         "alifiaputri@gmail.com";
+                d:alamat        "Jl Halim Perdanakusuma No 11";
+                d:kelurahan     "Sunter Jaya" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "3".                               
+
+p:24            d:name          "Bunga Lestari" ;
+                d:ttl           "Jakarta, 15 Januari 1998" ;
+                d:telp          "08123497666" ;
+                d:email         "bungalestari@gmail.com" ;
+                d:alamat        "Jl Melati No 13";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".
+                
+p:25            d:name          "Jerome" ;
+                d:ttl           "Jakarta, 7 Februari 2001" ;
+                d:telp          "08545363222" ;
+                d:email         "jerome@gmail.com" ;
+                d:alamat        "Jl Nusantara No 9";
+                d:kelurahan     "Lagoa" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".         
+
+p:26            d:name          "Zia Ulhaq" ;
+                d:ttl           "Jakarta, 25 Januari 1998" ;
+                d:telp          "08115555335" ;
+                d:email         "ziaulhaq@gmail.com" ;
+                d:alamat        "Jl Perdana No 15";
+                d:kelurahan     "Semper Barat" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".        
+
+p:27            d:name          "Reza Argani" ;
+                d:ttl           "Jakarta, 20 Maret 2000" ;
+                d:telp          "08213757822" ;
+                d:email         "rezaargani@gmail.com" ;
+                d:alamat        "Jl Cempaka No 18";
+                d:kelurahan     "Kelapa Gading Barat" ;
+                d:kecamatan     "Kelapa Gading";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "3".
+
+p:28            d:name          "Chandra" ;
+                d:ttl           "Jakarta, 28 Oktober 1999" ;
+                d:telp          "08582742822" ;
+                d:email         "chandra@gmail.com" ;
+                d:alamat        "Jl Enggano No 11";
+                d:kelurahan     "Cilincing" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "3".
+
+p:29            d:name          "Fadil Cahyanto" ;
+                d:ttl           "Jakarta, 1 Desember 1999" ;
+                d:telp          "08129754333" ;
+                d:email         "fadilcahyanto@gmail.com" ;
+                d:alamat        "Jl Cemara No 5";
+                d:kelurahan     "Kebon Bawang" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "2".
+
+p:30            d:name          "Anjuita Sari" ;
+                d:ttl           "Jakarta, 25 April 1998" ;
+                d:telp          "08134554444" ;
+                d:email         "anjuitasari@gmail.com" ;
+                d:alamat        "Jl Nirwana No 10";
+                d:kelurahan     "Pegangsaan Dua" ;
+                d:kecamatan     "Kelapa Gading";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".                                            
+
+p:31            d:name          "Reandra Purnomo" ;
+                d:ttl           "Jakarta, 13 April 2000" ;
+                d:telp          "08218744482" ;
+                d:email         "reandra@gmail.com" ;
+                d:alamat        "Jl Rajawali No 24";
+                d:kelurahan     "Rorotan" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "2".   
+
+p:32            d:name          "Gerilda Ayu" ;
+                d:ttl           "Jakarta, 10 November 2001" ;
+                d:telp          "08213456822" ;
+                d:email         "gerildaayu@gamil.com" ;
+                d:alamat        "Jl Griya Asri No 20";
+                d:kelurahan     "Marunda" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "3".   
+
+p:33            d:name          "Saputra Wijaya" ;
+                d:ttl           "Jakarta, 2 Mei 1998" ;
+                d:telp          "08586529990" ;
+                d:email         "saputrawijaya@gmail.com" ;
+                d:alamat        "Jl Korpri No 15";
+                d:kelurahan     "Rawa Badak Selatan" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".   
+
+p:34            d:name          "Dimas Akbar" ;
+                d:ttl           "Jakarta, 22 Desember 2001" ;
+                d:telp          "08213548249" ;
+                d:email         "dimasakbar@gmail.com" ;
+                d:alamat        "Jl Suradita No 17";
+                d:kelurahan     "Tanjung Priok" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "3".   
+
+p:35            d:name          "Muhammad Novan " ;
+                d:ttl           "Jakarta, 6 Januari 1998" ;
+                d:telp          "08521364922" ;
+                d:email         "muhammadnovan@gmail.com" ;
+                d:alamat        "Jl Perumnas No 25";
+                d:kelurahan     "Tugu Utara" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".   
+
+p:36            d:name          "Ahmad Satya" ;
+                d:ttl           "Jakarta, 9 Juni 2000" ;
+                d:telp          "08214573833" ;
+                d:email         "ahmadsatya@gmail.com" ;
+                d:alamat        "Jl Cibadak No 18";
+                d:kelurahan     "Kapuk Muara" ;
+                d:kecamatan     "Penjaringan";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".   
+
+p:37            d:name          "Salsabila Ayu" ;
+                d:ttl           "Jakarta, 19 Juli 2001" ;
+                d:telp          "08581357392" ;
+                d:email         "salsabilaayu@gmail.com" ;
+                d:alamat        "Jl Kenari No 26";
+                d:kelurahan     "Ancol" ;
+                d:kecamatan     "Pademangan";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "2".   
+
+p:38            d:name          "Sabrina Ayu" ;
+                d:ttl           "Jakarta, 15 Agustus 1999" ;
+                d:telp          "08123467382" ;
+                d:email         "sabrinaayu@gmail.com" ;
+                d:alamat        "Jl Anggrek Raya No 8";
+                d:kelurahan     "Sunter Agung" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "3".   
+
+p:39            d:name          "Dewi Sakinah" ;
+                d:ttl           "Jakarta, 18 Februari 1998" ;
+                d:telp          "08213936292" ;
+                d:email         "dewisakinah@gmail.com" ;
+                d:alamat        "Jl Sentosa No 20";
+                d:kelurahan     "Koja" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".   
+
+p:40            d:name          "Alifia Virda" ;
+                d:ttl           "Jakarta, 3 Juli 2000" ;
+                d:telp          "08581462820" ;
+                d:email         "anjuitasari@gmail.com" ;
+                d:alamat        "Jl Griya Indah No 5";
+                d:kelurahan     "Kalibaru" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".   
+
+p:41            d:name          "Anita Laila" ;
+                d:ttl           "Jakarta, 28 Maret 1998" ;
+                d:telp          "08123456373" ;
+                d:email         "anitalaila@gmail.com" ;
+                d:alamat        "Jl Kesemek No 30";
+                d:kelurahan     "Papanggo" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".   
+
+p:42            d:name          "Nika Fadhilah" ;
+                d:ttl           "Jakarta, 17 Juli 2000" ;
+                d:telp          "08121449202" ;
+                d:email         "nikafadhilah@gmail.com" ;
+                d:alamat        "Jl Warakas No 22";
+                d:kelurahan     "Warakas" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "3".   
+
+p:43            d:name          "Nurul Hanifah" ;
+                d:ttl           "Jakarta, 3 April 2001" ;
+                d:telp          "08581764832" ;
+                d:email         "nurulhanifah@gmail.com" ;
+                d:alamat        "Jl Mangga Dua no 19";
+                d:kelurahan     "Semper Barat" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "2".                   
+
+p:44            d:name          "Putri Wardani" ;
+                d:ttl           "Jakarta, 6 Mei 1998" ;
+                d:telp          "08213597042" ;
+                d:email         "putriwardani@gmail.com" ;
+                d:alamat        "Jl Plumpang No 28";
+                d:kelurahan     "Tugu Utara" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".                            
+
+p:45            d:name          "Cantika laila " ;
+                d:ttl           "Jakarta, 14 September 2000" ;
+                d:telp          "08581345272" ;
+                d:email         "cantikalaila@gmail.com" ;
+                d:alamat        "Jl Permai No 11";
+                d:kelurahan     "Kelapa Gading Timur" ;
+                d:kecamatan     "Kelapa Gading";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "3".   
+
+p:46            d:name          "Nurfitri" ;
+                d:ttl           "Jakarta, 3 Desember 2001" ;
+                d:telp          "08118468242" ;
+                d:email         "nurfitri@gmail.com" ;
+                d:alamat        "Jl Angin Brubu No 97";
+                d:kelurahan     "Tugu Selatan" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "20";
+                d:vaksin        "3".   
+
+p:47            d:name          "Indah Lestari" ;
+                d:ttl           "Jakarta, 4 November 1998" ;
+                d:telp          "08117624284" ;
+                d:email         "indahlestari@gmail.com" ;
+                d:alamat        "Jl Kesemek No 56";
+                d:kelurahan     "Sungai Bambu" ;
+                d:kecamatan     "Tanjung Priok";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "22";
+                d:vaksin        "3".                   
+
+p:48            d:name          "Suci Riana" ;
+                d:ttl           "Jakarta, 10 Oktober 2000" ;
+                d:telp          "08583542729" ;
+                d:email         "suciriana@gmail.com" ;
+                d:alamat        "Jl Swasambeda No 10";
+                d:kelurahan     "Lagoa" ;
+                d:kecamatan     "Koja";
+                d:pekerjaan     "Mahasiswa";
+                d:umur          "21";
+                d:vaksin        "3".    
+
+p:49            d:name          "Maharani Wijaya" ;
+                d:ttl           "Jakarta, 14 Maret 1998" ;
+                d:telp          "08123448404" ;
+                d:email         "maharaniwijay@gmail.com" ;
+                d:alamat        "Jl Permai No 28";
+                d:kelurahan     "Rorotan" ;
+                d:kecamatan     "Cilincing";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".                   
+
+p:50            d:name          "Dewi Sania" ;
+                d:ttl           "Jakarta, 22 Mei 1998" ;
+                d:telp          "08217346284" ;
+                d:email         "dewisania@gmail.com" ;
+                d:alamat        "Jl Plumpang No 31";
+                d:kelurahan     "Kelapa Gading Barat" ;
+                d:kecamatan     "Kelapa Gading";
+                d:pekerjaan     "Karyawan Swasta";
+                d:umur          "23";
+                d:vaksin        "3".                

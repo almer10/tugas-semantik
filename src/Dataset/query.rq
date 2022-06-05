@@ -1,0 +1,88 @@
+
+#get all data
+
+PREFIX p: <http://human.com/person#>
+PREFIX d: <http://human.com/person/data#>
+      
+SELECT ?person ?name ?ttl ?telp ?email ?alamat ?kelurahan ?kecamatan ?pekerjaan ?umur ?vaksin
+WHERE {
+    ?person d:name          ?name ;
+            d:ttl           ?ttl;
+            d:telp          ?telp ;
+            d:email         ?email ;
+            d:alamat        ?alamat ;
+            d:kelurahan     ?kelurahan ;
+            d:kecamatan     ?kecamatan ;
+            d:pekerjaan     ?pekerjaan ;
+            d:umur			?umur ;
+            d:vaksin		?vaksin .
+      }
+ORDER BY ASC(?name)
+
+#get data
+
+PREFIX p: <http://human.com/person#>
+PREFIX d: <http://human.com/person/data#>
+    
+SELECT ?person ?name ?ttl ?telp ?email ?alamat ?kelurahan ?kecamatan ?pekerjaan ?umur ?vaksin
+WHERE
+{
+    ?person d:name          ?name ;
+            d:ttl           ?ttl;
+            d:telp          ?telp ;
+            d:email         ?email ;
+            d:alamat        ?alamat ;
+            d:kelurahan     ?kelurahan ;
+            d:kecamatan     ?kecamatan ;
+            d:pekerjaan     ?pekerjaan ;
+            d:umur			?umur ;
+            d:vaksin		?vaksin .
+          
+          FILTER (
+            regex(?person, "${value}", "i") ||  
+            regex(?name, "${value}", "i") ||
+            regex(?ttl, "${value}", "i") ||
+            regex(?telp, "${value}", "i") ||
+            regex(?email, "${value}", "i") ||
+            regex(?alamat, "${value}", "i") ||
+            regex(?kelurahan, "${value}", "i") ||
+            regex(?kecamatan, "${value}", "i") ||
+            regex(?pekerjaan, "${value}", "i") ||
+            regex(?umur, "${value}", "i") ||
+            regex(?vaksin, "${value}", "i") 
+          )
+    }
+
+#get data filter
+
+PREFIX p: <http://human.com/person#>
+PREFIX d: <http://human.com/person/data#>
+      
+SELECT ?person ?name ?ttl ?telp ?email ?alamat ?kelurahan ?kecamatan ?pekerjaan ?umur ?vaksin
+WHERE
+{
+    ?person d:name          ?name ;
+            d:ttl           ?ttl;
+            d:telp          ?telp ;
+            d:email         ?email ;
+            d:alamat        ?alamat ;
+            d:kelurahan     ?kelurahan ;
+            d:kecamatan     ?kecamatan ;
+            d:pekerjaan     ?pekerjaan ;
+            d:umur			?umur ;
+            d:vaksin		?vaksin .
+            
+            FILTER contains(lcase(str(?name)), lcase(str("${
+              value.name ? value.name : ""
+            }")))
+            FILTER contains(lcase(str(?vaksin)), lcase(str("${
+              value.vaksin ? value.vaksin : ""
+            }")))
+            FILTER contains(lcase(str(?kecamatan)), lcase(str("${
+              value.kecamatan ? value.kecamatan : ""
+            }")))
+            FILTER contains(lcase(str(?kelurahan)), lcase(str("${
+              value.kelurahan ? value.kelurahan : ""
+            }")))
+      }
+ORDER BY ASC (?name)
